@@ -79,6 +79,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
+  # repository: git@gitee.com:rotten-cpu/rotten-cpu.git
   repository: git@github.com:Rotten-CPU/rotten-cpu.github.io.git
   branch: master
 
@@ -96,7 +97,7 @@ live2d:
     use: live2d-widget-model-hijiki
   display:
     position: left
-    width: 200
-    height: 400
+    width: 180
+    height: 360
   mobile:
     show: true
