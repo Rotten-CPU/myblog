@@ -5,6 +5,8 @@ tags: hexo
 categories: hexo
 ---
 
+## PS：免费版得提交一次，到gitee手动部署，自行斟酌
+
 ### gitee新建仓库
 
 ```bash
