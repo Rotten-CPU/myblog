@@ -101,3 +101,10 @@ live2d:
     height: 360
   mobile:
     show: true
+
+# mermaid
+## npm i hexo-filter-mermaid-diagrams
+mermaid:
+  enable: true
+  version: "7.1.2"
+  options:
