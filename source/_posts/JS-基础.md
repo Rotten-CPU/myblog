@@ -5,6 +5,7 @@ tags:
 ---
 
 ### js 目前7中基本类型
+
 ```bash
 String
 Number
@@ -15,7 +16,9 @@ Object
 Symbol(ES6)
 # 除了 Object 是复杂数据类型外，其它的 6 种是 JS 的基本数据类型。
 ```
+
 ### js 算术运算
+
 | 运算符 | 运算名 |
 | :---- | :----: |
 | + | 加法 |
@@ -26,7 +29,9 @@ Symbol(ES6)
 | -- | 自减 |
 | / | 除 |
 | % | 取除 |
+
 ### js 常规函数
+
 ```bash
 # 命名函数
 function sum(a, b) {
@@ -55,7 +60,9 @@ var func = (function() {
   // todo
 })();
 ```
+
 ### js 箭头函数 ES6
+
 ```bash
 命名箭头函数
 const func = () => console.log('hello world');
@@ -78,6 +85,7 @@ IIFE 箭头函数
 ```
 
 ### 其他知识
+
 ```bash
 # 将字符串小写改成大写（英文中，加中文也一样能实现）
 string.toUpperCase()
@@ -104,4 +112,10 @@ this.setData({
 <view>
 {{ obj['图片列表'] }}
 </view>
+```
+
+### 总结
+
+```bash
+JS 具有七个称为 “类型” 的基本构建块，其中 6 个也称为基本数据类型。 Object 本身就是一种类型，也是该语言最重要的实体。 对象是用于一对键/值的容器，并且可以包含几乎所有其他 JS 的类型，包括函数。
 ```
